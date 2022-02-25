@@ -1,20 +1,31 @@
 import React from 'react';
-import { Button, ThemeProvider, createMuiTheme} from '@material-ui/core'; //importando o material-ui. Usar a documentação oficial
+import { Button, ThemeProvider, createMuiTheme, makeStyles} from '@material-ui/core'; //importando o material-ui. Usar a documentação oficial
+import Home from './Home';
+
+
+const useStyles = makeStyles({ //O objeto será todas as classes de estilo que quero usar nesse arquivo
+  root:{
+  },
+});
 
 function App() {
   const theme = createMuiTheme({
-    pallete:{ //Para saber quais propriedades posso usar tem na documentação -> palette, spacing, z-index
+    spacing: 4,
+    palette:{ //Para saber quais propriedades posso usar tem na documentação -> palette, spacing, z-index
       primary: {
         main: '#f44336',
       },
       secondary: {
-        main: '#f5f5f5'
+        main: '#3f51b5'
       }
     },
   });
+
+  const classes = useStyles();
+
   return (
     <ThemeProvider theme={theme}>
-      <Button variant="contained" color="primary">Hello</Button> {/* rederizando o botão do material ui */}
+      <Home />
     </ThemeProvider>
   );
 }
