@@ -16,6 +16,7 @@ import {
   Grid,
   Hidden,
   ListSubheader,
+  TextField,
   Switch,
 } from "@material-ui/core"; //importando o material-ui. Usar a documentação oficial
 import { useTheme } from '@material-ui/core/styles';
@@ -31,14 +32,15 @@ import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import HistoryIcon from "@material-ui/icons/History";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import AddCircle from "@material-ui/icons/AddCircle";
+import SearchIcon from '@material-ui/icons/Search';
 import { DefaultTheme } from '@material-ui/styles';
 
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        height: '100vh',
-        background: theme.palette.background.default,
-      },
+  root: {
+    height: '100vh',
+    background: theme.palette.background.dark,
+  },
   appBar: {
     boxShadow: "none",
   },
@@ -47,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     height: 25,
+    zIndex: 3,
   },
   drawer: {
     width: 240,
@@ -54,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: 240,
-    zIndex: -1,
+    zIndex: 2,
     borderRight: "none",
   },
   icons: {
@@ -79,6 +82,22 @@ const useStyles = makeStyles((theme) => ({
   subheader: {
     textTransform: "uppercase",
   },
+  text: {
+    width: "35%",
+    marginLeft: 130,
+    
+  },
+  lupa:{
+    color: "black",
+    
+  },
+  botao:{
+    background: "#f1f1f1",
+    border: "1px solid #d3d3d3",
+    width: 10,
+    height:58,
+    background: theme.palette.background.dark,
+  }
 }));
 
 const videos = [
@@ -167,7 +186,7 @@ function Home({darkMode, setDarkMode}) {
   const classes = useStyles();
   const theme = useTheme();
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }}  className={classes.root}>
       <AppBar position="static" color="inherit" className={classes.appBar}>
         <Toolbar>
           <IconButton
@@ -181,11 +200,19 @@ function Home({darkMode, setDarkMode}) {
           </IconButton>
           <img src={theme.palette.type === 'dark' ? "/imagens/branco.png" : "/imagens/preto.png"} alt="logo" className={classes.logo} />
           <div className={classes.grow} /> {/* Para colocar espaçamento */}
+          <TextField id="outlined-basic" label="Pesquisar" variant="outlined" className={classes.text}/>
+          <Button variant="contained" disableElevation className={classes.botao}>
+            <IconButton className={classes.lupa} component="span">
+            <SearchIcon />
+            </IconButton>
+          </Button>
+          <div className={classes.grow} /> {/* Para colocar espaçamento */}
           <Switch
             value={darkMode}
             onChange={() => setDarkMode(!darkMode)}
             className={classes.icons}
           />
+
           <IconButton color="inherit" className={classes.icons}>
             <VideoCall />
           </IconButton>
@@ -447,7 +474,7 @@ function Home({darkMode, setDarkMode}) {
             Recomendados
           </Typography>
 
-          <Grid container spacing={4}> {/*Spacing para espaçamento */}
+          <Grid container spacing={4} > {/*Spacing para espaçamento */}
             {" "}
             {/*Grid é para high flexibility, funcionando para diferentes dispositivos (breakpoints)*/}
             {videos.map((item, index) => (
