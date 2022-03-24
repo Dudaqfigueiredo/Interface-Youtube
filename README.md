@@ -1,5 +1,5 @@
 <h1 align="center"> Interface do Youtube </h1>
-<img align="center" alt="Logo" width="200" height="100" src="./public/imagens/logo.png">
+<img align="center" alt="Logo" width="100" height="50" src="./public/imagens/logo.png">
 
 <div align="center" display="flex" flex-direction="row">
 <img src="https://img.shields.io/github/stars/Dudaqfigueiredo/Interface-Youtube" />
