@@ -9,6 +9,7 @@
 ## 📑 Sobre o projeto
 Esse projeto foi desenvolvido através de uma aula do Lucas Nhimi. O objetivo do projeto foi aprender a utilizar o Material UI.
 Os componentes utilizados na página são do Material UI e a página é totalmente responsiva.
+O projeto não é funcional pois o objetivo era aprender utilizar a documentação do Material UI e como fazer sua estilização.
 </br></br></br>
 
 ## 📁 Acesso ao projeto
