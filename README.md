@@ -32,9 +32,9 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 </br></br></br>
 
 ## 📸 Imagens do projeto
-### Interface Light e Dark
+### ``Interface Light e Dark``
 <img alt="InterfaceGif" width="700" height="400" src="./public/Interfacegif.gif"></img>
 
-### Responsividade
+### ``Responsividade``
 <img alt="InterfaceGif" width="700" height="400" src="./public/Interfacegif2.gif"></img>
 
