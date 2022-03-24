@@ -30,7 +30,7 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 ### Interface Light
 
 <video width="700" height="400" src="./public/interfacevideo.gif"></video>
-<img width="700" height="400" src="./public/interfacevideo.gif"></img>
+
 
 ### Interface Dark
 <img alt="Interface" width="700" height="400" src="./public/imagens/Interfacedark.png">
