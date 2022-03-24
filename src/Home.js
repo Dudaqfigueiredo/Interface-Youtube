@@ -199,13 +199,13 @@ function Home({darkMode, setDarkMode}) {
             <MenuIcon />
           </IconButton>
           <img src={theme.palette.type === 'dark' ? "/imagens/branco.png" : "/imagens/preto.png"} alt="logo" className={classes.logo} />
-          <div className={classes.grow} /> {/* Para colocar espaçamento */}
+          {/* <div className={classes.grow} /> {/* Para colocar espaçamento 
           <TextField id="outlined-basic" label="Pesquisar" variant="outlined" className={classes.text}/>
           <Button variant="contained" disableElevation className={classes.botao}>
             <IconButton className={classes.lupa} component="span">
             <SearchIcon />
             </IconButton>
-          </Button>
+          </Button> */}
           <div className={classes.grow} /> {/* Para colocar espaçamento */}
           <Switch
             value={darkMode}
