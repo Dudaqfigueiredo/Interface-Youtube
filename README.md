@@ -14,4 +14,4 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 <img alt="Interface" width="700" height="400" src="./public/imagens/Interfacedark.png">
 
 ### Responsividade
-<img alt="Interface" width="500" height="200" src="./public/imagens/Interfaceresponsiva.png">
+<img alt="Interface" width="200" height="500" src="./public/imagens/Interfaceresponsiva.png">
