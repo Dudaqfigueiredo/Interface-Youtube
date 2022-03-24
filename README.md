@@ -1,9 +1,6 @@
 <h1 align="center"> Interface do Youtube </h1>
-<p align="center">
-<img  alt="Logo" width="100" height="50" src="./public/imagens/logo.png">
-</p>
 <div align="center" display="flex" flex-direction="row">
-<img src="https://img.shields.io/github/stars/Dudaqfigueiredo/Interface-Youtube" />
+<img src="https://img.shields.io/github/stars/Dudaqfigueiredo/Interface-Youtube-red" />
 <img src="https://img.shields.io/badge/Status-Em%20constru%C3%A7%C3%A3o-red" />
 <img src="https://img.shields.io/badge/Tecnologia-React-red" />
 </div>
