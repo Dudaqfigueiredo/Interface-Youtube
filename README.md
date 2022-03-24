@@ -7,5 +7,11 @@ Os componentes utilizados na página são do Material UI e a página é totalmen
 https://interface-youtube-dudaqfigueiredo.vercel.app/
 
 ## Imagens do projeto
-<img alt="Interface" height="30" width="40" src="./public/imagens/Interface.png">
-<img alt="Interface" height="30" width="40" src="./public/imagens/Interfacedark.png">
+### Interface Light
+<img alt="Interface" width="800" height="500" src="./public/imagens/Interface.png">
+
+### Interface Dark
+<img alt="Interface" width="800" height="500" src="./public/imagens/Interfacedark.png">
+
+### Responsividade
+<img alt="Interface" width="800" height="500" src="./public/imagens/Interfaceresponsiva.png">
