@@ -1,10 +1,10 @@
 <h1 align="center"> Interface do Youtube </h1>
-<img alt="Logo" width="400" height="200" src="./public/imagens/Interface.png">
+<img align="center" alt="Logo" width="400" height="200" src="./public/imagens/logo.png">
 
 <div align="center" display="flex" flex-direction="row">
-https://img.shields.io/github/stars/Dudaqfigueiredo/Interface-Youtube
-https://img.shields.io/badge/Status-Em%20constru%C3%A7%C3%A3o-red
-https://img.shields.io/badge/Tecnologia-React-red
+<img src="https://img.shields.io/github/stars/Dudaqfigueiredo/Interface-Youtube" />
+<img src="https://img.shields.io/badge/Status-Em%20constru%C3%A7%C3%A3o-red" />
+<img src="https://img.shields.io/badge/Tecnologia-React-red" />
 </div>
 
 Esse projeto foi desenvolvido através de uma aula do Lucas Nhimi. O objetivo do projeto foi aprender a utilizar o Material UI.
