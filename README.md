@@ -6,7 +6,7 @@
 </div>
 </br>
 
-## Sobre o projeto
+## 📑 Sobre o projeto
 Esse projeto foi desenvolvido através de uma aula do Lucas Nhimi. O objetivo do projeto foi aprender a utilizar o Material UI.
 Os componentes utilizados na página são do Material UI e a página é totalmente responsiva.
 
@@ -28,7 +28,7 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 
 ## Imagens do projeto
 ### Interface Light
-<video  alt="Interface" width="700" height="400" src="./public/imagens/Interfacegif.gif"></video>
+<video width="700" height="400" src="./public/imagens/Interfacegif.gif"></video>
 
 ### Interface Dark
 <img alt="Interface" width="700" height="400" src="./public/imagens/Interfacedark.png">
