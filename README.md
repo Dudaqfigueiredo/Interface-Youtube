@@ -28,7 +28,7 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 
 ## Imagens do projeto
 ### Interface Light
-<video width="700" height="400" src="./public/Interfacegif.gif"></gif>
+<video width="700" height="400" src="./public/Interfacegif.gif"></video>
 
 ### Interface Dark
 <img alt="Interface" width="700" height="400" src="./public/imagens/Interfacedark.png">
