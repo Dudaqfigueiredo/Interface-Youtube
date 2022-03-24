@@ -1,8 +1,23 @@
-# Interface do Youtube
+<h1 align="center"> Interface do Youtube </h1>
+<img alt="Logo" width="400" height="200" src="./public/imagens/Interface.png">
+
+<div align="center" display="flex" flex-direction="row">
+https://img.shields.io/github/stars/Dudaqfigueiredo/Interface-Youtube
+https://img.shields.io/badge/Status-Em%20constru%C3%A7%C3%A3o-red
+https://img.shields.io/badge/Tecnologia-React-red
+</div>
 
 Esse projeto foi desenvolvido através de uma aula do Lucas Nhimi. O objetivo do projeto foi aprender a utilizar o Material UI.
 Os componentes utilizados na página são do Material UI e a página é totalmente responsiva.
 
+
+## 📁 Acesso ao projeto
+
+**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+
+## 🛠️ Abrir e rodar o projeto
+
+**Apresente as instruções necessárias para abrir e executar o projeto**
 ## Deploy do projeto
 https://interface-youtube-dudaqfigueiredo.vercel.app/
 
