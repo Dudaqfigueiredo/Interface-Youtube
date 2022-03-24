@@ -28,8 +28,7 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 
 ## Imagens do projeto
 ### Interface Light
-<video width="700" height="400" src="https://media.discordapp.net/attachments/938893268765278308/956577241284886538/ezgif.com-gif-maker.gif?width=888&height=499"></video>
-<img align="right" height="150" src="https://media.discordapp.net/attachments/938893268765278308/956577241284886538/ezgif.com-gif-maker.gif?width=888&height=499"> 
+
 <video width="700" height="400" src="./public/interfacevideo.gif"></video>
 <img width="700" height="400" src="./public/interfacevideo.gif"></img>
 
