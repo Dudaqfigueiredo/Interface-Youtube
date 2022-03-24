@@ -8,10 +8,10 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 
 ## Imagens do projeto
 ### Interface Light
-<img alt="Interface" width="800" height="500" src="./public/imagens/Interface.png">
+<img alt="Interface" width="700" height="400" src="./public/imagens/Interface.png">
 
 ### Interface Dark
-<img alt="Interface" width="800" height="500" src="./public/imagens/Interfacedark.png">
+<img alt="Interface" width="700" height="400" src="./public/imagens/Interfacedark.png">
 
 ### Responsividade
-<img alt="Interface" width="800" height="500" src="./public/imagens/Interfaceresponsiva.png">
+<img alt="Interface" width="500" height="200" src="./public/imagens/Interfaceresponsiva.png">
