@@ -5,7 +5,9 @@
 <img src="https://img.shields.io/badge/Tecnologia-React-red" />
 </div>
 </br>
-<img align="center" alt="Logo" width="100" height="50" src="./public/imagens/logo.png">
+<p align="center">
+<img  alt="Logo" width="100" height="50" src="./public/imagens/logo.png">
+</p>
 
 Esse projeto foi desenvolvido através de uma aula do Lucas Nhimi. O objetivo do projeto foi aprender a utilizar o Material UI.
 Os componentes utilizados na página são do Material UI e a página é totalmente responsiva.
