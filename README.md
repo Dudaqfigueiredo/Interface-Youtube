@@ -22,12 +22,10 @@ https://interface-youtube-dudaqfigueiredo.vercel.app/
 </br></br></br>
 
 ## 🔨 Funcionalidades do projeto
-
 - `Funcionalidade 1` `Cadastro de Autores`: Nosso 
 </br></br></br>
 
 ## ✔️ Técnicas e tecnologias utilizadas
-
 - ``React JS``
 - ``Material UI``
 </br></br></br>
