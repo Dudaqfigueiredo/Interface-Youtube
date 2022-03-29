@@ -12,17 +12,16 @@ Os componentes utilizados na página são do Material UI e a página é totalmen
 O projeto não é funcional pois o objetivo era aprender utilizar a documentação do Material UI e como fazer sua estilização.
 </br></br></br>
 
-## 📁 Acesso ao projeto
-https://interface-youtube-dudaqfigueiredo.vercel.app/
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
-</br></br></br>
-
 ## 🛠️ Abrir e rodar o projeto
-**Apresente as instruções necessárias para abrir e executar o projeto**
+O projeto pode ser aberto pelo link:
+https://interface-youtube-dudaqfigueiredo.vercel.app/
+
+Ou pode baixar o código e utilizar o comando npm start
 </br></br></br>
 
 ## 🔨 Funcionalidades do projeto
-- `Funcionalidade 1` `Cadastro de Autores`: Nosso 
+- `Funcionalidade 1` `Utilizar o material UI`: Esse projeto teve como objetivo para mim, aprender a utilizar o material UI e fazer a utilização da sua documentação 
+- `Funcionalidade 2` `Troca de elementos`: Outro objetivo foi aprender a fazer a troca de elemntos de acordo com o tamanho da tela. Trocar o elemento com a responsividade. 
 </br></br></br>
 
 ## ✔️ Técnicas e tecnologias utilizadas
